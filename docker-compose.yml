@@ -27,7 +27,7 @@ services:
       context: ./frontend
       args:
         # VITE_SERVER_BASE_URL: "http://backend:8000/api/v1"
-        # VITE_SERVER_BASE_URL: "http://127.0.0.1:8000/api/v1"
+        # VITE_SERVER_BASE_URL: "http://127.0.0.1:8000/api/v1"F
         VITE_SERVER_BASE_URL: "http://172.105.44.231:8000/api/v1"
     ports:
       - "5173:80"
